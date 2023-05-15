@@ -33,7 +33,7 @@ The Dataset consists of a list of comments taken for the Reddit public API from 
 
    2. Most discussed/used topics associated with every subreddit.
 
-   3. Topics that yield the highest number of upvotes and lowest of downvotes
+   3. Topics that yield the highest number of upvotes and lowest of downvotes.
 
    4. The top users in top subreddits.
 
@@ -48,7 +48,4 @@ We downloaded [hadoop 3.3.4](https://hadoop.apache.org/release/3.3.4.html) on co
 
 Every task is assigned a dedicated folder containing a script tailored to that task. This script is responsible for executing the task and providing the required parameters to the mapper and reducer. In cases where a task necessitates the execution of two jobs to generate the final output, the script will initiate the first job and subsequently utilize its output as input for the second job.
 
-
-
-## Using the compressed dataset
 
