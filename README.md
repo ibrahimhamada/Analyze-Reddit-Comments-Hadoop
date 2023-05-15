@@ -29,17 +29,17 @@ The Dataset consists of a list of comments taken for the Reddit public API from 
 
 ## MapReduce Jobs
 
-    1. Top subreddits.
+   1. Top subreddits.
 
-    2. Most discussed/used topics associated with every subreddit.
+   2. Most discussed/used topics associated with every subreddit.
 
-    3. Topics that yield the highest number of upvotes and lowest of downvotes
+   3. Topics that yield the highest number of upvotes and lowest of downvotes
 
-    4. The top users in top subreddits.
+   4. The top users in top subreddits.
 
-    5. Rate of replies compared to controversiality of comment/post.
+   5. Rate of replies compared to controversiality of comment/post.
     
-    6. The usage of curse per subreddit.
+   6. The usage of curse per subreddit.
 
 
 ## How to run a job?
